@@ -6,13 +6,16 @@ echo 'Installing fonts'
 yay -S ttf-fira-code ttf-roboto
 
 echo 'Installing dev stuffs...'
-yay -S visual-studio-code-bin sublime-text-dev yarn nodejs insomnia
+yay -S visual-studio-code-bin sublime-text-dev yarn nodejs insomnia android-sdk android-sdk-platform-tools genymotion virtual-box-ext-oracle
  
 echo 'Installing desktop stuffs ...'
 yay -S albert-lite gpick papirus-folder-git papirus-icon-theme
 
 echo 'Installing anothoer stuffs ...'
-yay -S spotify-stable gpick papirus-folder-git sassc noto-fonts-emoji xclip gpaste
+yay -S spotify-stable gpick papirus-folder-git sassc noto-fonts-emoji xclip gpaste-deamon google-chrome alarm-clock-applet jdk8 
+
+
+
 
 echo 'Limpando tudo ...'
 yay -Yc
